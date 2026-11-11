@@ -1,0 +1,92 @@
+[
+  {
+    "id": "faq_001",
+    "question": "How can I reset my password?",
+    "answer": "You can reset your password using the Forgot Password option on the login page.",
+    "category": "account"
+  },
+  {
+    "id": "faq_002",
+    "question": "What should I do if my account is locked?",
+    "answer": "Contact customer support to verify your identity and restore account access.",
+    "category": "account"
+  },
+  {
+    "id": "faq_003",
+    "question": "How can I get a refund?",
+    "answer": "Refund requests can be submitted through the billing section of your account.",
+    "category": "billing"
+  },
+  {
+    "id": "faq_004",
+    "question": "Why was I charged twice?",
+    "answer": "Duplicate charges should be reported to the billing team for investigation.",
+    "category": "billing"
+  },
+  {
+    "id": "faq_005",
+    "question": "How can I update my email address?",
+    "answer": "Go to Account Settings, open the Profile section, enter your new email address and confirm it using the verification link we send you.",
+    "category": "account"
+  },
+  {
+    "id": "faq_006",
+    "question": "How do I delete my account?",
+    "answer": "You can submit an account deletion request from Account Settings or by contacting customer support. Deletion is permanent and cannot be undone.",
+    "category": "account"
+  },
+  {
+    "id": "faq_007",
+    "question": "How can I update my payment method?",
+    "answer": "Open the billing section of your account, select Payment Methods, and add or replace your card or other payment details.",
+    "category": "billing"
+  },
+  {
+    "id": "faq_008",
+    "question": "Where can I find my invoices?",
+    "answer": "Invoices are available in the billing section of your account under Invoice History, where you can view and download them.",
+    "category": "billing"
+  },
+  {
+    "id": "faq_009",
+    "question": "The app keeps crashing. What should I do?",
+    "answer": "Update the app to the latest version, restart your device, and reinstall the app if the problem continues. If it still crashes, contact technical support with your device model and app version.",
+    "category": "technical"
+  },
+  {
+    "id": "faq_010",
+    "question": "Why is the page not loading?",
+    "answer": "Check your internet connection, clear your browser cache and cookies, or try a different browser. If the issue persists, contact technical support.",
+    "category": "technical"
+  },
+  {
+    "id": "faq_011",
+    "question": "How do I enable two-factor authentication?",
+    "answer": "Go to Account Settings, open the Security section, select Two-Factor Authentication and follow the on-screen steps to link your authenticator app or phone number.",
+    "category": "technical"
+  },
+  {
+    "id": "faq_012",
+    "question": "I am not receiving verification emails. What can I do?",
+    "answer": "Check your spam or junk folder, make sure the email address on your account is correct, and request a new verification email. If it still does not arrive, contact support.",
+    "category": "technical"
+  },
+  {
+    "id": "faq_013",
+    "question": "How can I contact customer support?",
+    "answer": "You can reach customer support through the contact form in the Help Center, by email, or through live chat where available.",
+    "category": "general"
+  },
+  {
+    "id": "faq_014",
+    "question": "What are your support hours?",
+    "answer": "Our support team is available Monday to Friday during standard business hours. Requests sent outside these hours are answered the next business day.",
+    "category": "general"
+  },
+  {
+    "id": "faq_015",
+    "question": "Where can I find the privacy policy and terms of service?",
+    "answer": "Links to the privacy policy and terms of service are available in the footer of our website and app.",
+    "category": "general"
+  }
+]

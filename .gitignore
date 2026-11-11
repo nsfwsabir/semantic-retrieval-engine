@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# ChromaDB
+chroma_db/
+
+# Environment variables
+.env
