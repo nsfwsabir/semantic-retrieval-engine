@@ -3,7 +3,7 @@ from database import collection
 
 def search_faqs(
     query: str,
-    top_k:int =3,
+    top_k:int =1,
     max_distance: float=0.5,
     category: str | None = None
 ):
@@ -41,7 +41,3 @@ def search_faqs(
 
     return search_results
         
-
-print(search_faqs("I was charged twice", category="billing"))
-print(search_faqs("I was charged twice", category="account"))
-print(search_faqs("I was charged twice"))
