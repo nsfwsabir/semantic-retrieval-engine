@@ -19,20 +19,20 @@ def evaluate():
 
         results= search_faqs(query, max_distance=2.0)
 
-        distance = results[0]["distance"] 
-
         predicted_id= None
+        distance=None
 
-        if results and distance <=0.6:
-            predicted_id=results[0]["id"]
-        
+        if results:
+            distance = results[0]['distance']
+            if distance <=0.6:
+                predicted_id=results[0]["id"]
+
         print(f"  Distance: {distance}")
 
         if not expected_ids:
             is_correct= predicted_id is None
         else:
             is_correct= predicted_id in expected_ids
-        
         
         if is_correct:
             correct+=1
