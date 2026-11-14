@@ -37,7 +37,7 @@
   },
   {
     "id": "faq_007",
-    "question": "How can I update my payment method?",
+    "question": "How do I update, replace, or change an expired or invalid saved payment card?",
     "answer": "Open the billing section of your account, select Payment Methods, and add or replace your card or other payment details.",
     "category": "billing"
   },
@@ -79,13 +79,13 @@
   },
   {
     "id": "faq_014",
-    "question": "What are your support hours?",
+    "question": "What are your customer support hours, and when are support agents available? Do you provide support outside business hours?",
     "answer": "Our support team is available Monday to Friday during standard business hours. Requests sent outside these hours are answered the next business day.",
     "category": "general"
   },
   {
     "id": "faq_015",
-    "question": "Where can I find the privacy policy and terms of service?",
+    "question": "Where can I find information about your privacy policy, terms of service, and how you collect, use, and protect customer data?",
     "answer": "Links to the privacy policy and terms of service are available in the footer of our website and app.",
     "category": "general"
   }
