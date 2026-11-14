@@ -1,0 +1,81 @@
+[
+  { "query": "I forgot my login password", "expected_ids": ["faq_001"] },
+  { "query": "How do I change my password if I can't remember it?", "expected_ids": ["faq_001"] },
+  { "query": "Where is the forgot password link?", "expected_ids": ["faq_001"] },
+
+  { "query": "I cannot log into my account", "expected_ids": ["faq_002"] },
+  { "query": "My account has been blocked after too many attempts", "expected_ids": ["faq_002"] },
+  { "query": "How do I get my locked account restored?", "expected_ids": ["faq_002"] },
+
+  { "query": "I want my money back", "expected_ids": ["faq_003"] },
+  { "query": "How do I request a refund for my purchase?", "expected_ids": ["faq_003"] },
+  { "query": "Can I get reimbursed for a payment?", "expected_ids": ["faq_003"] },
+
+  { "query": "I was billed two times", "expected_ids": ["faq_004"] },
+  { "query": "There are two identical charges on my card", "expected_ids": ["faq_004"] },
+  { "query": "I think I paid twice for the same thing", "expected_ids": ["faq_004"] },
+
+  { "query": "I want to change the email linked to my account", "expected_ids": ["faq_005"] },
+  { "query": "How do I use a new email address on my profile?", "expected_ids": ["faq_005"] },
+  { "query": "Where do I edit my contact email?", "expected_ids": ["faq_005"] },
+
+  { "query": "I want to permanently close my account", "expected_ids": ["faq_006"] },
+  { "query": "How do I remove my account and data?", "expected_ids": ["faq_006"] },
+  { "query": "Can a deleted account be recovered?", "expected_ids": ["faq_006"] },
+
+  { "query": "My credit card expired, how do I add a new one?", "expected_ids": ["faq_007"] },
+  { "query": "How can I switch to a different payment method?", "expected_ids": ["faq_007"] },
+  { "query": "Where do I change my billing card details?", "expected_ids": ["faq_007"] },
+
+  { "query": "Where can I download my receipts?", "expected_ids": ["faq_008"] },
+  { "query": "I need a copy of my past invoices", "expected_ids": ["faq_008"] },
+  { "query": "How do I view my billing history?", "expected_ids": ["faq_008"] },
+
+  { "query": "The app closes by itself every time I open it", "expected_ids": ["faq_009"] },
+  { "query": "App crashes on startup", "expected_ids": ["faq_009"] },
+  { "query": "Should I reinstall the app because it keeps freezing and crashing?", "expected_ids": ["faq_009"] },
+
+  { "query": "The website won't open", "expected_ids": ["faq_010"] },
+  { "query": "Pages are stuck loading in my browser", "expected_ids": ["faq_010"] },
+  { "query": "Do I need to clear my cache because the site is not working?", "expected_ids": ["faq_010"] },
+
+  { "query": "How do I turn on 2FA?", "expected_ids": ["faq_011"] },
+  { "query": "I want to add an extra layer of security to my login", "expected_ids": ["faq_011"] },
+  { "query": "Can I link an authenticator app to my account?", "expected_ids": ["faq_011"] },
+
+  { "query": "The verification email never showed up", "expected_ids": ["faq_012"] },
+  { "query": "I didn't get the confirmation email", "expected_ids": ["faq_012"] },
+  { "query": "How do I resend the verification link?", "expected_ids": ["faq_012"] },
+
+  { "query": "How do I talk to someone from support?", "expected_ids": ["faq_013"] },
+  { "query": "Is there a live chat or support email?", "expected_ids": ["faq_013"] },
+  { "query": "I need to reach a human agent", "expected_ids": ["faq_013"] },
+
+  { "query": "When is the support team available?", "expected_ids": ["faq_014"] },
+  { "query": "Do you offer support on weekends?", "expected_ids": ["faq_014"] },
+  { "query": "What time does customer service open?", "expected_ids": ["faq_014"] },
+
+  { "query": "Where can I read your privacy policy?", "expected_ids": ["faq_015"] },
+  { "query": "Where are the terms and conditions?", "expected_ids": ["faq_015"] },
+  { "query": "How is my personal data handled according to your policies?", "expected_ids": ["faq_015"] },
+
+  { "query": "I changed my email but never got the verification link", "expected_ids": ["faq_005", "faq_012"] },
+  { "query": "I can't sign in and need help from support", "expected_ids": ["faq_002", "faq_013"] },
+  { "query": "I was charged twice and want a refund", "expected_ids": ["faq_004", "faq_003"] },
+  { "query": "I want to delete my account but I can't log in", "expected_ids": ["faq_006", "faq_002"] },
+  { "query": "The login page won't load so I can't reset my password", "expected_ids": ["faq_010", "faq_001"] },
+
+
+  { "query": "How do I cook chicken biryani?", "expected_ids": [] },
+  { "query": "What is the weather in Chennai today?", "expected_ids": [] },
+  { "query": "Explain how neural networks work", "expected_ids": [] },
+  { "query": "Suggest a good laptop for programming", "expected_ids": [] },
+  { "query": "How do I learn Python?", "expected_ids": [] },
+  { "query": "What is the capital of Japan?", "expected_ids": [] },
+  { "query": "How can I lose weight?", "expected_ids": [] },
+  { "query": "Write a poem about the ocean", "expected_ids": [] },
+  { "query": "How do I install Linux?", "expected_ids": [] },
+  { "query": "What are the best movies this year?", "expected_ids": [] }
+
+  
+]

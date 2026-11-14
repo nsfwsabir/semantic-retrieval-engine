@@ -7,7 +7,7 @@
   },
   {
     "id": "faq_002",
-    "question": "What should I do if my account is locked?",
+    "question": "I cannot access my account because it has been locked. How can I unlock it?",
     "answer": "Contact customer support to verify your identity and restore account access.",
     "category": "account"
   },
@@ -73,7 +73,7 @@
   },
   {
     "id": "faq_013",
-    "question": "How can I contact customer support?",
+    "question": "How can I speak to a human support agent or contact a real person?",
     "answer": "You can reach customer support through the contact form in the Help Center, by email, or through live chat where available.",
     "category": "general"
   },
