@@ -2,7 +2,7 @@ import json
 from search import search_faqs
 
 def load_test_queries():
-    with open("data/test_queries.json","r") as file:
+    with open("data/holdout_queries.json","r") as file:
         return json.load(file)
 
 

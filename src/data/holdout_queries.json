@@ -1,0 +1,83 @@
+
+[
+  {
+    "query": "My password isn't working and I need to set a new one",
+    "expected_ids": ["faq_001"]
+  },
+  {
+    "query": "Too many failed sign-in attempts have disabled my account",
+    "expected_ids": ["faq_002"]
+  },
+  {
+    "query": "The product didn't meet my needs. Can I get my payment returned?",
+    "expected_ids": ["faq_003"]
+  },
+  {
+    "query": "My statement shows the same order payment twice",
+    "expected_ids": ["faq_004"]
+  },
+  {
+    "query": "Can I replace the email address I registered with?",
+    "expected_ids": ["faq_005"]
+  },
+  {
+    "query": "I no longer want an account here. What's the closure process?",
+    "expected_ids": ["faq_006"]
+  },
+  {
+    "query": "The card saved to my profile is no longer valid",
+    "expected_ids": ["faq_007"]
+  },
+  {
+    "query": "I need the invoice for an earlier transaction",
+    "expected_ids": ["faq_008"]
+  },
+  {
+    "query": "The mobile app shuts down whenever I launch it",
+    "expected_ids": ["faq_009"]
+  },
+  {
+    "query": "The page keeps spinning and never finishes opening",
+    "expected_ids": ["faq_010"]
+  },
+  {
+    "query": "Where can I configure two-factor authentication?",
+    "expected_ids": ["faq_011"]
+  },
+  {
+    "query": "The account activation message is missing from my inbox",
+    "expected_ids": ["faq_012"]
+  },
+  {
+    "query": "Is there a way to speak with customer care directly?",
+    "expected_ids": ["faq_013"]
+  },
+  {
+    "query": "Are your agents available outside normal business hours?",
+    "expected_ids": ["faq_014"]
+  },
+  {
+    "query": "Can I review the rules governing how you use customer information?",
+    "expected_ids": ["faq_015"]
+  },
+  {
+    "query": "What are some good weekend destinations in India?",
+    "expected_ids": []
+  },
+  {
+    "query": "How does a graphics card render 3D objects?",
+    "expected_ids": []
+  },
+  {
+    "query": "Give me a recipe for chocolate brownies",
+    "expected_ids": []
+  },
+  {
+    "query": "What is the difference between Java and C++?",
+    "expected_ids": []
+  },
+  {
+    "query": "Explain the history of the Roman Empire",
+    "expected_ids": []
+  }
+]
