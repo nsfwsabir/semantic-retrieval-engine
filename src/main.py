@@ -23,7 +23,7 @@ def main():
             print("No relevant results found. Try rephrasing your query.")
 
         for index, result in enumerate(results, start=1):
-            print(f"\n{index}, {result['question']} \nCategory: {result['category']} \nDistance: {result['distance']} \nAnswer: {result['answer']}")
+            print(f"\n{index}, {result['question']} \nCategory: {result['category']} \nDistance: {result['distance']:.4f} \nAnswer: {result['answer']}")
             
 
 

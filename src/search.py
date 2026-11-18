@@ -3,7 +3,7 @@ from database import collection
 
 def search_faqs(
     query: str,
-    top_k:int =1,
+    top_k:int =3,
     max_distance: float=0.5,
     category: str | None = None
 ):
