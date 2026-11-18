@@ -22,6 +22,13 @@ def main():
         if not results:
             print("No relevant results found. Try rephrasing your query.")
 
+        if len(results)>=2:
+            gap=results[1]["distance"] - results[0]["distance"]
+
+            if gap<0.10:
+                print("\nThis query may be ambiguous")
+                print("Here are some closely related results")
+
         for index, result in enumerate(results, start=1):
             print(f"\n{index}, {result['question']} \nCategory: {result['category']} \nDistance: {result['distance']:.4f} \nAnswer: {result['answer']}")
             
